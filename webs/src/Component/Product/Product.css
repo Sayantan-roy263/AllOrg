@@ -1,0 +1,81 @@
+.product-banner{
+    background: url(../../../public/image/grocery12.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.product-banner h2{
+    text-transform: capitalize;
+    color: rgb(72, 203, 15);
+    font-size: 50px;
+    font-weight: bold;
+    margin:180px 0px;
+}
+.content{
+    padding: 50px 20px;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 5px;
+}
+.item img{
+    width: 100%;
+    object-fit:contain;
+}
+.card .btn{
+    width: 80px;
+    margin:5px;
+    background-color: rgb(72, 203, 15);
+    border: none;
+}
+.card .btn:hover{
+    background-color: rgb(64, 138, 63);
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.9s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+/* .pagi{
+    padding: auto;
+    color:rgb(72, 203, 15);
+    background-color: black;
+} */
+.pagi{
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+    /* color:rgb(72, 203, 15) */
+}
+.pagi Pagination{
+    color:rgb(72, 203, 15);
+}
+@media (max-width: 992px) and (min-width: 576px){
+    .content{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 576px){
+    .content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

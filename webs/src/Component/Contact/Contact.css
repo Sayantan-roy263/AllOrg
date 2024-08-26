@@ -1,0 +1,97 @@
+.contact-banner{
+    background: url("../../../public/image/grocery5.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+}
+.contact-head{
+    background-color: rgb(215, 239, 217);
+    width:280px;
+    margin: auto;
+    border-radius: 5px;
+}
+.contact-banner h2{
+    color: rgb(72, 203, 15);
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin:150px 0;
+}
+.contact-part{
+    height: 300px;
+    
+}
+
+.content-section{
+    display: flex;
+    padding:80px;
+    justify-content: space-between;
+    color:rgb(72, 203, 15);
+   
+}
+.content-section i:hover{
+    cursor: pointer;
+    color: rgb(64, 138, 63);
+}
+
+.content-section h3{
+    margin: 15px 0px;
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .contact-part{
+        height: auto;
+    }
+    .content-section{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+.contact-message{
+    margin-bottom: 50px;
+}
+@media (max-width: 576px){
+    .contact-part{
+        height:auto;
+    }
+    .content-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.review-form{
+    background:#000;
+    color:#fff;
+    padding:150px 80px;
+}
+.review-form h3{
+    padding: 10px;
+    
+}
+.review-form label{
+    color:rgb(72, 203, 15);
+}
+.review-form .btn{
+    background-color:rgb(72, 203, 15);
+    border:none;
+    text-transform: uppercase;
+}
+.review-form .btn:hover{
+    background-color: rgb(64, 138, 63);
+}
+.review-form .form-group{
+    text-align: left;
+}
+#inputMessage{
+    height: 100px;
+}
+@media screen and (max-width: 768px){
+    .review-form{
+        width: 100%;
+    }
+    /* .form-group{
+        width: 100%;
+    } */
+}

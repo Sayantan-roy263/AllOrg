@@ -1,0 +1,331 @@
+.input-group{
+    width: 800px;
+    height: 50px;
+}
+.input-group .form-control{
+    height: 50px;
+}
+.input-group .btn{
+    text-transform: capitalize;
+    background-color: rgb(72, 203, 15);
+    color: white;
+    border: none;
+    font-weight: bold;
+
+}
+.input-group .btn:hover{
+    background-color: rgb(64, 138, 63);
+}
+.container-md{
+    display: flex;
+}
+
+
+/* .carousel-indicators{
+    border-radius: 50%;
+} */
+/* #carouselExampleCaptions{
+    border-radius: 50%;
+} */
+@media (max-width:992px) and (min-width: 768px){
+    .carousel-caption h5{
+        font-size: 40px;
+        color: rgb(72, 203, 15);
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px){
+    .carousel-caption h5{
+        font-size: 20px;
+        color: rgb(72, 203, 15);
+    }
+}
+.home-item{
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    
+}
+.home-item h3{
+    text-align: center;
+    align-items: center;
+    color: rgb(72, 203, 15);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 40px 0px 40px;
+    /* padding: 0px 10px; */
+}
+
+.home-item .content{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    /* padding: 10px; */
+}
+.home-item .card{
+    /* margin: auto; */
+    /* padding: 5px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 5px rgb(250, 251, 250);
+    padding: 5px;
+}
+.home-item img{
+    width: 100%;
+    object-fit: contain;
+}
+.home-item .card-text {
+  color:black;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+/* .home-item .card i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(72, 203, 15);
+    border-radius: 50%;
+    margin: 0px 10px;
+   
+}
+.fa-heart{
+    color: rgb(165, 13, 13);
+    
+}
+.fa-heart:hover{
+    background-color:rgb(165, 13, 13);
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.fa-cart-shopping{
+    color: rgb(72, 203, 15);
+}
+.fa-cart-shopping:hover{
+    background-color: rgb(72, 203, 15);
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.fa-eye{
+    color: blue;
+}
+.fa-eye:hover{
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+} */
+
+.home-item .card button{
+    padding: 5px;
+    width: 75px;
+    text-transform: capitalize;
+    background-color: rgb(72, 203, 15);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+}
+.home-item .card button:hover{
+    background-color: rgb(64, 138, 63);
+}
+.home-item .card img{
+    height: 30vh;
+    
+}
+@media (max-width: 992px) and (min-width: 576px){
+    .home-item{
+        height: auto;
+        align-items: center;
+        /* margin-bottom: 10px; */
+    }
+    .home-item .content{
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+    .home-item .card{
+        margin: auto;
+    }
+}
+@media (max-width: 576px){
+    .home-item .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*About home*/
+
+
+.home-about{
+    margin-top: 50px;
+}
+.home-about h3{
+    color:rgb(72, 203, 15);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.about-product-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+.card-about{
+    height:400px;
+   
+    background-color: rgb(249, 251, 249);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+.card-about-img{
+    height: 250px;
+    width: 300px;
+}
+.card-about img{
+  
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 5px;
+   
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.9s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+   
+}
+.card-about-body{
+    height: 150px;
+  
+}
+.card-about-body h5{
+    padding-top: 15px;
+    color:rgb(72, 203, 15);
+    font-weight: bold;
+}
+.card-about-text{
+  
+   text-align: center;
+}
+@media (max-width: 992px) and (min-width: 576px){
+    .about-product-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 576px){
+    .about-product-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* blog*/
+
+
+.home-blog h3{
+    color: rgb(72, 203, 15);
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+.home-blog h5{
+    color: rgb(72, 203, 15);
+    text-transform: capitalize;
+    text-align: justify;
+    margin: 20px 0px;
+}
+.home-blog p{
+    text-align: justify;
+}
+.home-blog img{
+    max-width: 100%;
+
+}
+
+.popular-brand{
+    
+    margin: 60px 0px;
+    height: auto;
+    color: rgb(72, 203, 15);
+   
+    text-transform: capitalize;
+    padding: auto;
+}
+.popular-brand h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.popular-brand .popular-image{
+    width: 210px;
+    height: 210px;
+    
+    /* background-color: rgb(212, 246, 213); */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px rgb(72, 203, 15); */
+    border: 1px solid  rgb(72, 203, 15);
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.popular-brand img{
+    width: 120px;
+    /* margin: auto; */
+    height: 150px;
+    margin: 15px 0px;
+}
+.gallery{
+    height: auto;
+    margin: 30px 0px;
+    color: rgb(72, 203, 15);
+    
+    text-transform: capitalize;
+}
+.gallery h3{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.gallery img{
+  width: 350px;
+  height: 250px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.gallery .content-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 992px) and (min-width: 768px){
+    .gallery .content-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px){
+    .gallery .content-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

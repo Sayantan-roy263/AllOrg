@@ -1,0 +1,240 @@
+.banner-about{
+    width: 100%;
+    height: 600px;
+}
+.about-container{
+    height: 600px;
+    width: 100%;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-row{
+  display: flex;
+  padding: 100px;
+  
+  color:rgb(72, 203, 15)
+
+}
+.about-row p{
+    color: black;
+    /* font-weight: bold; */
+    text-align: justify;
+
+}
+.about-row h5{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.About-product{
+    height: 1300px;
+}
+.About-product h2{
+    padding-bottom: 20px;
+    /* margin-bottom: 10px; */
+    color: rgb(72, 203, 15);
+    text-transform: capitalize;
+}
+.about-product-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+.card-about{
+    height:400px;
+   
+    background-color: rgb(249, 251, 249);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+.card-about-img{
+    height: 250px;
+    width: 300px;
+}
+.card-about img{
+  
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 5px;
+   
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.9s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+   
+}
+.card-about-body{
+    height: 150px;
+  
+}
+.card-about-body h5{
+    padding-top: 15px;
+    color:rgb(72, 203, 15);
+    font-weight: bold;
+}
+.card-about-text{
+  
+   text-align: center;
+}
+
+@media (max-width : 992px) and (min-width: 576px){
+    .About-product{
+        height:auto;
+        margin-top: 30px;
+    }
+    .about-product-row{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    
+    /*.about-container{
+        height:auto;
+       
+    } */
+}
+@media(max-width: 992px) and (min-width: 768px){
+    /* .about-container{
+        height: auto;
+    } */
+    .banner-about{
+        margin-bottom: 140px;
+        /* height:auto; */
+    }
+    .about-row{
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom:50px; */
+        padding: 80px;
+        /* margin: 100px; */
+        justify-content: center;
+    }
+}
+@media(max-width: 768px) and (min-width:576px){
+    .banner-about{
+        margin-bottom: 70px;
+    }
+    .about-row{
+        flex-direction: column;
+        align-items: center;
+        padding:10px;
+        justify-content: center;
+    }
+}
+@media (max-width: 576px){
+    .About-product{
+        height: auto;
+        margin-top: 45px;
+    }
+    .about-product-row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+     .about-row{
+        flex-direction: column;
+       align-items: center; 
+       justify-content: center;
+       padding: 0px;
+       /* margin-bottom: 80px; */
+       
+    }
+    .about-row img{
+        margin-bottom: 30px;
+    }
+    /*.about-container{
+        height:auto;
+       
+    } */
+}
+.about-service{
+    height: 500px;
+    margin: 20px;
+}
+.about-service h2{
+    text-transform: capitalize;
+    color:rgb(72, 203, 15);
+    padding-top: 30px;
+}
+.about-service .container{
+ width: 100%;
+ /* justify-content: center;
+ align-items: center;
+  */
+}
+.about-service .content-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.content-section .crd2{
+  
+    margin: 20px 20px;
+    /* border: 2px solid rgb(72, 203, 15); */
+    height: 300px;
+    /* width: 400px; */
+    border-radius: 10px;
+    border: 2px solid rgb(229, 247, 229);
+    /* background-color: black; */
+}
+/* .crd2{
+    width:320px;
+    
+} */
+.crd2 img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(72, 203, 15);
+    border-radius: 10px;
+    
+}
+.content-section .crd2 h5{
+    margin: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    color:rgb(72, 203, 15);
+}
+.content-section .crd2 p{
+    color:rgb(72, 203, 15);
+}
+/* .content-section .crd2:hover{
+    box-shadow: none;
+} */
+@media (max-width:992px) and (min-width: 768px){
+    /* .crd2 img{
+        width:300px;
+        height: 200px;
+    } */
+    .about-service{
+     height:auto;
+    }
+    .about-service .content-section{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px){
+    .crd2{
+        width:310px;
+    }
+    .crd2 img{
+        width:300px;
+        height: 200px;
+    }
+    .about-service{
+        height:auto;
+    }
+    .about-service .content-section{
+        display:flex;
+       flex-direction: column;
+    }
+
+}

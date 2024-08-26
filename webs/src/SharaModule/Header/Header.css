@@ -1,0 +1,114 @@
+.navbar{
+    background-color: rgb(97, 242, 95);
+ 
+ 
+}
+.navbar .navbar-brand{
+    padding-top: 10px;
+    /* vertical-align: middle; */
+    top: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    /* color:rgb(240, 132, 50) */
+}
+.navbar-brand img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transform: translateY(-4px);
+    margin: auto;
+}
+
+ .nav-item{
+   font-weight: bolder;
+   text-transform: uppercase;
+   margin: 0 4px;
+   
+} 
+
+/*#navbarNav{
+    justify-content: center;
+ 
+    
+   
+}
+.nav-link{
+    color:rgb(19, 95, 24);
+   
+}
+.nav-link:hover{
+    color:rgb(5, 36, 26)
+} */
+
+/* .nav-button button{
+    width: 80px;
+    height:max-content;
+    border-radius: 40px;
+    padding: 5px;
+    margin:5px;
+    text-transform: capitalize;
+    border: none;
+} */
+
+#su{
+    background-color: rgb(34, 26, 114);
+    color: white;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+    text-align: center;
+}
+#si{
+    background-color: red;
+    color:white;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+    text-align: center;
+
+}
+#so{
+    background-color: rgb(157, 150, 228);
+    color: black;
+    border-style: none;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    /* width: 70px; */
+}
+#so:hover{
+    background-color: blue;
+    color:white;
+}
+#su:hover{
+    background-color: white;
+    color:rgb(36, 9, 79);
+}
+#si:hover{
+    background-color: white;
+    color:red;
+}
+
+/* .nav-button button :hover{
+   background-color: ;
+} */
+.picture-profile img{
+  height: 30px;
+  width:30px;
+  border-radius: 50%;
+  margin: 6px;
+ 
+}
+.nav-press{
+    padding:7px;
+}
+/* .navbar-toggler-icon{
+    background-color: blue;
+} */

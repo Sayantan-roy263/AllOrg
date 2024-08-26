@@ -1,0 +1,73 @@
+.form-makeup-sign{
+    /* padding:100px; */
+    /* height: 600px; */
+    background-image: url('../../../public/image/grocery2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    /* width: 600px; */
+    width: 30%;
+    background-color: rgb(219, 247, 235);
+    
+    padding: 30px;
+    border-radius: 5px;
+
+}
+/* .form-makeup-sign form{
+    margin: auto;
+    width: 40%;
+} */
+.login-form h2{
+    color:rgb(72, 203, 15);
+    font-weight: bold;
+}
+.form-group{
+    align-items: left;
+    text-align: left;
+    /* width: 500px; */
+    color:rgb(61, 109, 59);
+    font-size: large;
+    font-weight: bold;
+   
+}
+.form-group input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+ 
+}
+.login-form button{
+    margin: 30px;
+    background-color: rgb(72, 203, 15);
+    color:white;
+    border-radius: 5px;
+    width: 80px;
+    border:none;
+}
+.login-form button:hover{
+    background-color: rgb(64, 138, 63);
+
+    color: white;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .login-form{
+        width: 60% !important
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .login-form{
+        width: 80% !important
+    }
+}
+@media (max-width: 576px){
+    .login-form{
+        width: 100% !important;
+        
+    }
+}
